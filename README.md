@@ -23,11 +23,11 @@ Each repository in the list will contain:
 1. Download the project folder SpringBootVueProject.
 2. To run the server, go into the server folder and use the below command. The server will start on port 8080.
 
-### mvn spring-boot:run
+    ### mvn spring-boot:run
 
 3. To run the client, go to the client folder and run the below command. The client will start on port 3000.
 
-### yarn serve
+    ### yarn serve
 
 4. Go to the url http://localhost:3000/ and you will find the home page of the project.
 
