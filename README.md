@@ -11,7 +11,7 @@ Each repository in the list will contain:
 
 ## Requirements to run the project:
 
-1. Server: Spring Boot v2.2.4.RELEASE
+1. Server: Spring Boot v2.2.4.RELEASE, Java 8
 2. Client: Vue.js @vue/cli 4.2.2
 
 ## Required Ports:
