@@ -1,4 +1,4 @@
-# find-git-repos
+## find-git-repos
 #service which will allow user to enter any word as an input and will get the list of PHP and JavaScript repositories from GitHub, where the entered word is part of repository name.
 
 Each repository in the list will contain:
@@ -10,17 +10,17 @@ Each repository in the list will contain:
 ·         Some information about repository owner
 
 
-Requirements to run the project:
+##Requirements to run the project:
 
 1. Server: Spring Boot v2.2.4.RELEASE
 2. Client: Vue.js @vue/cli 4.2.2
 
-Required Ports:
+##Required Ports:
 
 1. Server : 8080
 2. Client: 3000
 
-Steps to run the project.
+##Steps to run the project.
 1. Download the project folder SpringBootVueProject.
 2. To run the server, go into the server folder and use the below command. The server will start on port 8080.
 
