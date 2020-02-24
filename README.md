@@ -29,9 +29,11 @@ mvn spring-boot:run
 yarn serve
 
 4. Go to the url http://localhost:3000/ and you will find the home page of the project.
+
 ![alt text](screenshots/homepage.png)
 
 5. User can type any keyword and all the github repositories of PHP and Javascipt containing that keyword will be returned.
+
 ![alt text](screenshots/repos.png)
 
 
