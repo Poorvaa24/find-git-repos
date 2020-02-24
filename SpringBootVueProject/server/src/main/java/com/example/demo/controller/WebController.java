@@ -5,21 +5,18 @@ import org.json.JSONException;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
-import java.io.IOException;
-
-
 @RestController
 public class WebController {
 
     @Autowired
     DemoDAO dao;
 
-    @GetMapping("/demo")
+    @GetMapping("/repos")
     @ResponseBody
-    public String getRepositories(@RequestParam(value = "keyword", required = false) String keyword) throws IOException, JSONException {
+    public String getRepositories(@RequestParam(value = "keyword", required = false) String keyword) throws JSONException {
 
         if (keyword == null || keyword.isEmpty()) {
-            return "Poorva";
+            return "No Repository Found";
         } else {
             return dao.getRepos(keyword);
         }
