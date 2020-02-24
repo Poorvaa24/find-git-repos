@@ -21,7 +21,7 @@ Each repository in the list will contain:
 
 ## Steps to run the project.
 1. Download the project folder SpringBootVueProject.
-2. To run the server, go into the server folder and use the below command. The server will start on port 8080.
+2. To run the backend server, go into the server folder and use the below command. The server will start on port 8080.
 
     ### mvn spring-boot:run
 
