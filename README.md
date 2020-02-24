@@ -13,6 +13,7 @@ Each repository in the list will contain:
 
 1. Server: Spring Boot v2.2.4.RELEASE, Java 8
 2. Client: Vue.js @vue/cli 4.2.2
+3. Client Dependencies: yarn add axios@0.18.0 vuejs-logger@1.5.3 (Required for making HTTP requests to the server)
 
 ## Required Ports:
 
